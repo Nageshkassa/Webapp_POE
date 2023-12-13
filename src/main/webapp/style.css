@@ -1,0 +1,48 @@
+*{
+    margin:0;
+}
+nav{
+    background-color:#304D30;
+    font: 1em sans-serif;
+    padding: 10px;
+}
+body{
+    background-color: #DED0B6;
+}
+nav ul{
+display: flex;
+}
+nav ul li a{
+text-decoration: none;
+color:rgb(255, 255, 255);
+font-size: 15px;
+}
+nav ul li a:hover{
+font-size:16px ;
+}
+nav ul li {
+list-style-type: none;
+margin: 0 20px;
+font-weight: bold;
+
+}
+.right {
+    display: flex;
+    justify-content: center;
+
+    font-size: 10vh;
+    font-weight: bold;
+    animation: moveRightToLeft 10s linear infinite; 
+}
+
+
+.left{
+display: flex;
+justify-content: center;
+margin:20px 0;
+}
+
+.main{
+height:100vh;
+width:100%;
+}
